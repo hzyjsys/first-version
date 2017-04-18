@@ -1,0 +1,177 @@
+/*
+* @Author: JMW
+* @Date:   2017-03-27 15:28:24
+* @Last Modified by:   hzyjsys
+* @Last Modified time: 2017-04-06 12:58:00
+*/
+/* 科研成果 */
+.sciAch-nav{
+	width: 100%;
+	height: 400px;
+	position: relative;
+}
+.sciAch-nav img{
+	position: absolute;
+	left:0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+/* 代表性成果 */
+.represent{
+	width: 100%;
+	height: 2150px;
+	background:#fff;
+	padding-top: 100px;
+}
+.represent .represent-con,.topic-con,.activity-con,.paper-con{
+	width: 976px;
+	margin:0 auto;
+	position: relative;
+	padding:0 102px;
+}
+.represent .represent-con div.represent-nav,.topic .topic-con div.topic-nav,
+.activity .activity-con div.activity-nav,.paper .paper-con div.paper-nav{
+	width: 100%;
+	height: 34px;
+	position: absolute;
+	left: 0;
+	top:0;
+}
+.represent .represent-con div.represent-nav span,.topic .topic-con div.topic-nav span,
+.activity .activity-con div.activity-nav span,.paper .paper-con div.paper-nav span{
+	width: 116px;
+	height: 34px;
+	position: absolute;
+	left:118px;
+	top:0;
+	background: #ffc000;
+	transform: skewX(-30deg);
+	-webkit-transform: skewX(-30deg);
+	-moz-transform: skewX(-30deg);
+	-ms-transform: skewX(-30deg);
+	-o-transform: skewX(-30deg);
+}
+.represent .represent-con div.represent-nav h2,.topic .topic-con div.topic-nav h2,
+.activity .activity-con div.activity-nav h2,.paper .paper-con div.paper-nav h2{
+	position: absolute;
+	left:132px;
+	font-size:22px;
+	top:2px;
+}
+.represent .represent-con div.represent-nav img,.topic .topic-con div.topic-nav img,
+.activity .activity-con div.activity-nav img,.paper .paper-con div.paper-nav img{
+	position: absolute;
+	right: 378px;
+	top: 10px;
+}
+.represent-con div.hzgx,.represent-con div.hyywz,.represent-con div.wzgf{
+	position: absolute;
+	left: 172px;
+	top: 114px;
+}
+.represent .represent-con div.hzgx span,.represent .represent-con div.hyywz span,.represent-con div.wzgf span{
+	font-size: 24px;
+	margin-left: 24px;
+}
+.represent .represent-con div.hzgx ul,.represent .represent-con div.hyywz ul,.represent .represent-con div.wzgf ul{
+	margin-top: 76px;
+}
+.represent .represent-con div.hzgx ul li,.represent .represent-con div.hyywz ul li,.represent .represent-con div.wzgf ul li{
+	width: 236px;
+	height: 340px;
+	float: left;
+	margin:0 50px 70px 0;
+	box-shadow: 10px 10px #ccc;
+	border:1px solid #ddd;
+}
+.represent .represent-con div.hyywz{
+	top:114px;
+}
+.represent .represent-con div.hzgx{
+	top:1062px;
+}
+.represent .represent-con div.wzgf{
+	top:1610px;
+}
+/* 研究项目 */
+.topic{
+	width: 100%;
+	height: 680px;
+	background: #f5f5f5;
+	padding-top: 100px;
+}
+.topic .topic-con{
+	height: 680px;
+}
+.topic .topic-con .project{
+	width: 1000px;
+	position: absolute;
+	top: 70px;
+	left: 130px;
+}
+.topic .topic-con .project .projectUl{
+	margin-top: 50px;
+}
+.topic .topic-con .project .projectUl .projectTitle{
+	margin-bottom:50px;
+}
+.topic .topic-con .project .projectUl .projectTitle h2{
+	_text-align: center;
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+.topic .topic-con .project .projectUl .projectTitle ul{
+	width: 1000px;
+	overflow: hidden;
+	margin-top: 46px;
+}
+.topic .topic-con .project .projectUl .projectTitle ul li{
+	list-style-type: disc;
+	font-size: 16px;
+	line-height: 28px;
+	margin-left: 24px;
+	float: left;
+	width: 400px;
+	margin-right: 76px;
+	color:#797070;
+}
+/* 学术论文 */
+.paper{
+	width: 100%;
+	height: 590px;
+	background: #fff;
+	padding-top: 100px;
+}
+.paper .paper-con{
+	height: 590px;
+}
+.paper .paper-con ul{
+	width: 890px;
+	top:130px;
+	left: 130px;
+	position: absolute;
+}
+.paper .paper-con ul li{
+	height: 226px;
+}
+.paper .paper-con ul li a.title{
+	font-size: 24px;
+	line-height: 48px;
+}
+.paper .paper-con ul li a.title:hover{
+	color:#ff5a00;
+}
+.paper .paper-con ul li span{
+	color:#b29999;
+	font-style: italic;
+}
+.paper .paper-con ul li p{
+	color:#555;
+	margin-top: 15px;
+	line-height: 24px;
+	letter-spacing: 1px;
+}
+.paper .paper-con ul li p a{
+	color:#57b382;
+}

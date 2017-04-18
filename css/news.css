@@ -1,0 +1,107 @@
+/*
+* @Author: JMW
+* @Date:   2017-03-28 14:04:40
+* @Last Modified by:   hzyjsys
+* @Last Modified time: 2017-04-07 13:54:08
+*/
+/* 新闻中心 */
+.news-nav{
+	width: 100%;
+	height: 400px;
+	position: relative;
+}
+.news-nav img{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+/* 学习动态 */
+.academic{
+	width: 100%;
+	height: 1050px;
+	padding-top: 100px;
+}
+.academic .academic-con{
+	height: 1034px;
+}
+.academic .academic-con ul,.hotNews .hotNews-con ul{
+	width: 890px;
+	top:130px;
+	position: absolute;
+}
+.academic .academic-con ul li,.hotNews .hotNews-con ul li{
+	height: 226px;
+}
+.academic .academic-con ul li a.title,.hotNews .hotNews-con ul li a.title{
+	font-size: 24px;
+	line-height: 48px;
+}
+.academic .academic-con ul li a.title:hover,.hotNews .hotNews-con ul li a.title:hover{
+	color:#ff5a00;
+}
+.academic .academic-con ul li span,.hotNews .hotNews-con ul li span{
+	color:#b29999;
+	font-style: italic;
+}
+.academic .academic-con ul li p,.hotNews .hotNews-con ul li p{
+	color:#555;
+	margin-top: 15px;
+	line-height: 24px;
+	letter-spacing: 1px;
+}
+.academic .academic-con ul li p a,.hotNews .hotNews-con ul li p a{
+	color:#57b382;
+}
+.academic .academic-con .line{
+	width: 1085px;
+	border-top: 1px solid #d6d6d6;
+	position: absolute;
+	bottom:0;
+	left:36px;
+}
+/* 交流动态 */
+.hotNews{
+	width: 100%;
+	height: 1040px;
+	padding-top: 100px;
+}
+.academic-con,.hotNews-con{
+	width: 976px;
+	height: 554px;
+	margin:0 auto;
+	position: relative;
+	padding:0 102px;
+}
+.academic .academic-con div.academic-nav,.hotNews .hotNews-con div.hotNews-nav{
+	width: 100%;
+	height: 34px;
+	position: absolute;
+	left: 0;
+	top:0;
+}
+.academic .academic-con div.academic-nav span,.hotNews .hotNews-con div.hotNews-nav span{
+	width: 116px;
+	height: 34px;
+	position: absolute;
+	left:118px;
+	top:0;
+	background: #ffc000;
+	transform: skewX(-30deg);
+	-webkit-transform: skewX(-30deg);
+	-moz-transform: skewX(-30deg);
+	-ms-transform: skewX(-30deg);
+	-o-transform: skewX(-30deg);
+}
+.academic .academic-con div.academic-nav h2,.hotNews .hotNews-con div.hotNews-nav h2{
+	position: absolute;
+	left:132px;
+	font-size:22px;
+	top:2px;
+}
+.academic .academic-con div.academic-nav img,.hotNews .hotNews-con div.hotNews-nav img{
+	position: absolute;
+	right: 378px;
+	top: 10px;
+}

@@ -1,0 +1,192 @@
+/*
+* @Author: JMW
+* @Date:   2017-03-27 15:28:24
+* @Last Modified by:   hzyjsys
+* @Last Modified time: 2017-04-07 14:35:56
+*/
+/* 人才队伍 */
+.talent-nav{
+	width: 100%;
+	height: 400px;
+	position: relative;
+}
+.talent-nav img{
+	position: absolute;
+	left:0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+/* 人才简介 */
+.talentInt{
+	width: 100%;
+	height: 600px;
+	background:#fff;
+	padding-top: 100px;
+}
+.talentInt .talentInt-con{
+	height: 600px;
+}
+.talentInt-con,.talentImpor-con,.zhaopin-con{
+	width: 976px;
+	margin:0 auto;
+	position: relative;
+	padding:0 102px;
+}
+.talentInt .talentInt-con div.talentInt-nav,.talentImpor .talentImpor-con div.talentImpor-nav,
+.zhaopin .zhaopin-con div.zhaopin-nav{
+	width: 100%;
+	height: 34px;
+	position: absolute;
+	left: 0;
+	top:0;
+}
+.talentInt .talentInt-con div.talentInt-nav span,.talentImpor .talentImpor-con div.talentImpor-nav span,
+.zhaopin .zhaopin-con div.zhaopin-nav span{
+	width: 116px;
+	height: 34px;
+	position: absolute;
+	left:118px;
+	top:0;
+	background: #ffc000;
+	transform: skewX(-30deg);
+	-webkit-transform: skewX(-30deg);
+	-moz-transform: skewX(-30deg);
+	-ms-transform: skewX(-30deg);
+	-o-transform: skewX(-30deg);
+}
+.talentInt .talentInt-con div.talentInt-nav h2,.talentImpor .talentImpor-con div.talentImpor-nav h2,
+.zhaopin .zhaopin-con div.zhaopin-nav h2{
+	position: absolute;
+	left:132px;
+	font-size:22px;
+	top:2px;
+}
+.talentInt .talentInt-con div.talentInt-nav img,.talentImpor .talentImpor-con div.talentImpor-nav img,
+.zhaopin .zhaopin-con div.zhaopin-nav img{
+	position: absolute;
+	right: 378px;
+	top: 10px;
+}
+/* 人才引进 */
+.talentImpor{
+	width: 100%;
+	height: 600px;
+	background: #f5f5f5;
+	padding-top: 100px;
+}
+.talentImpor .talentImpor-con{
+	height: 600px;
+}
+/* 招贤纳士 */
+.zhaopin{
+	width: 100%;
+	height: 700px;
+	background: #fff;
+	padding-top: 100px;
+}
+.zhaopin .zhaopin-con{
+	height: 700px;
+}
+.cooperation{
+	width: 976px;
+	position: absolute;
+	left: 102px;
+	top: 20px;
+}
+.cooperation .cooperation-con{
+	width: 976px;
+	margin:60px auto 0;
+}
+.cooperation .cooperation-con li{
+	margin-top: 20px;
+}
+.cooperation .cooperation-con .zhaopin-con2{
+	width: 392px;
+	height: 170px;
+	background:#f5f5f5;
+	float: left;
+}
+.cooperation .cooperation-con .zhaopin-con3{
+	width: 300px;
+	height: 170px;
+	background:#f5f5f5;
+	float: left;
+}
+.cooperation .cooperation-con .zhaopin-title{
+	float: left;
+	width: 284px;
+	height: 170px;
+	position: relative;
+}
+.cooperation .cooperation-con .zhaopin-title img{
+	position: absolute;
+	left:50%;
+	top:36px;
+	margin-left:-24px;
+}
+.cooperation .cooperation-con .zhaopin-title h2{
+	font-size: 24px;
+	position: absolute;
+	bottom: 10px;
+	color: #fff;
+}
+.cooperation .cooperation-con .zhaopin-con2 h4,
+.cooperation .cooperation-con .zhaopin-con3 h4{
+	font-size: 20px;
+	margin:20px 0 0 40px;
+}
+.cooperation .cooperation-con .zhaopin-con2 ul,
+.cooperation .cooperation-con .zhaopin-con3 ul{
+	margin-left: 56px;
+}
+.cooperation .cooperation-con .zhaopin-con2 ul li,
+.cooperation .cooperation-con .zhaopin-con3 ul li{
+	color:#666;
+	list-style-type: disc;
+}
+.cooperation .cooperation-con h2{
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.cooperation .cooperation-con p{
+	text-align: right;
+}
+.talentInt .talentInt-con ul{
+	width: 988px;
+	height: 242px;
+	margin:124px auto;
+	position: absolute;
+}
+.talentInt .talentInt-con ul li{
+	width: 988px;
+	height: 242px;
+	margin-bottom: 2px;
+}
+.talentInt .talentInt-con ul li img{
+	float: left;
+	margin-top:30px;
+}
+.talentInt .talentInt-con ul li div{
+	width: 700px;
+	height: 242px;
+	float: right;
+	margin-right:40px;
+}
+.talentInt .talentInt-con ul li div.last{
+	border-bottom: none;
+}
+.talentInt .talentInt-con ul li div h2{
+	font-size:22px;
+	width: 66px;
+	border-bottom: 2px solid #ffc000;
+	margin-top: 16px;
+}
+.talentInt .talentInt-con ul li div p{
+	margin-top:20px;
+	line-height: 24px;
+	color:#464343;
+	letter-spacing: 2px;
+	text-indent: 2em;
+}
